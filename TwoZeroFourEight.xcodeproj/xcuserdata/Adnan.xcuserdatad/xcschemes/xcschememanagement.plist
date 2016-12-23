@@ -9,9 +9,19 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>TwoZeroFourEightMobile.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>8455E36D1E08FAEB0070FB74</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>84C74C851DDEC83800461FEE</key>
 		<dict>
 			<key>primary</key>

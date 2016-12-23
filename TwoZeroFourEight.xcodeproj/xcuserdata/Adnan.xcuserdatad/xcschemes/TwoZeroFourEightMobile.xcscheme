@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "84C74C851DDEC83800461FEE"
-               BuildableName = "TwoZeroFourEight"
-               BlueprintName = "TwoZeroFourEight"
+               BlueprintIdentifier = "8455E36D1E08FAEB0070FB74"
+               BuildableName = "TwoZeroFourEightMobile.app"
+               BlueprintName = "TwoZeroFourEightMobile"
                ReferencedContainer = "container:TwoZeroFourEight.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "84C74C851DDEC83800461FEE"
-            BuildableName = "TwoZeroFourEight"
-            BlueprintName = "TwoZeroFourEight"
+            BlueprintIdentifier = "8455E36D1E08FAEB0070FB74"
+            BuildableName = "TwoZeroFourEightMobile.app"
+            BlueprintName = "TwoZeroFourEightMobile"
             ReferencedContainer = "container:TwoZeroFourEight.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -55,9 +55,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "84C74C851DDEC83800461FEE"
-            BuildableName = "TwoZeroFourEight"
-            BlueprintName = "TwoZeroFourEight"
+            BlueprintIdentifier = "8455E36D1E08FAEB0070FB74"
+            BuildableName = "TwoZeroFourEightMobile.app"
+            BlueprintName = "TwoZeroFourEightMobile"
             ReferencedContainer = "container:TwoZeroFourEight.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -74,9 +74,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "84C74C851DDEC83800461FEE"
-            BuildableName = "TwoZeroFourEight"
-            BlueprintName = "TwoZeroFourEight"
+            BlueprintIdentifier = "8455E36D1E08FAEB0070FB74"
+            BuildableName = "TwoZeroFourEightMobile.app"
+            BlueprintName = "TwoZeroFourEightMobile"
             ReferencedContainer = "container:TwoZeroFourEight.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

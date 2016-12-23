@@ -6,7 +6,38 @@
 //  Copyright © 2016 Adnan Zahid. All rights reserved.
 //
 
-import Foundation
+let grid: Grid = Grid()
 
-print("Hello, World!")
+grid.printBoxArray()
 
+grid.takeTurn(direction: Direction.Down)
+
+grid.printBoxArray()
+
+grid.takeTurn(direction: Direction.Left)
+
+grid.printBoxArray()
+
+grid.takeTurn(direction: Direction.Right)
+
+grid.printBoxArray()
+
+grid.takeTurn(direction: Direction.Down)
+
+grid.printBoxArray()
+
+grid.takeTurn(direction: Direction.Up)
+
+grid.printBoxArray()
+
+grid.takeTurn(direction: Direction.Left)
+
+grid.printBoxArray()
+
+grid.takeTurn(direction: Direction.Down)
+
+grid.printBoxArray()
+
+grid.takeTurn(direction: Direction.Right)
+
+grid.printBoxArray()
