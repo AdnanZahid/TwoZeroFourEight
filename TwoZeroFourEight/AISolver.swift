@@ -74,7 +74,7 @@ class AISolver {
         
         if depth == 0 {
             
-            return calculateEmptyBoxScore(grid: grid)
+            return calculateEmptyBoxScore(grid: grid) + calculateTotalBoxScore(grid: grid) + calculateCornerBoxScore(grid: grid)
         }
         
         var bestEvaluationValue: Int = Int.min
@@ -82,7 +82,7 @@ class AISolver {
         for direction in directionsList {
             
             for xyPair in grid.emptyBoxXYPairArray {
-                
+            
                 randomBoxGenerator.nextNumber = 2
                 randomBoxGenerator.nextXYPair = xyPair
             
@@ -114,6 +114,42 @@ class AISolver {
                 if grid.boxArray[x][y] == nil {
                     
                     evaluationValue += 1
+                }
+            }
+        }
+        
+        return evaluationValue
+    }
+    
+    func calculateTotalBoxScore(grid: Grid) -> Int {
+        
+        var evaluationValue: Int = 0
+        
+        for y in 0 ..< grid.boxArray.count {
+            
+            for x in 0 ..< grid.boxArray[y].count {
+                
+                if let box = grid.boxArray[x][y] {
+                    
+                    evaluationValue += box.number
+                }
+            }
+        }
+        
+        return evaluationValue
+    }
+    
+    func calculateCornerBoxScore(grid: Grid) -> Int {
+        
+        var evaluationValue: Int = 0
+        
+        for y in 0 ..< grid.boxArray.count {
+            
+            for x in 0 ..< grid.boxArray[y].count {
+                
+                if let box = grid.boxArray[x][y] {
+                    
+                    evaluationValue += box.number * x * y
                 }
             }
         }
