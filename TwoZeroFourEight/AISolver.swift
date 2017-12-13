@@ -15,7 +15,7 @@ protocol AIDelegate: class {
 
 class AISolver {
     
-    let thinkingDepth: Int = 3
+    let thinkingDepth: Int = 2
     
     let directionsList: [Direction] = [Direction.Left, Direction.Right, Direction.Up, Direction.Down]
     
