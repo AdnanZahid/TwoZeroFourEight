@@ -1,4 +1,4 @@
-# Two Zero Four Eight bot
+# 2048 bot
 
 This is a **2048 playing bot** written in Swift.
 
